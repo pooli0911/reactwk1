@@ -1,0 +1,220 @@
+@import url("https://www.cssfontstack.com/Arial%20Black");
+
+html{
+    background-color: #EDF2C5;
+    width: 1260px;
+    height: 940px;
+    box-sizing: border-box;
+    margin: auto;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
+}
+
+.container{
+    max-width: 880px;
+    background-color: #EDF2C5;
+}
+
+/* header */
+.header{
+    max-width: 940px;
+    max-height: 42px;
+    margin-left: 160px;
+}
+
+.head-title{
+    position: absolute;
+    margin: 0;
+    margin: 42px 0 0 0;
+    display: block;
+    font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
+    width: 271px;
+    height: 42px;
+    color: #778A50;
+    font-size: 44px;
+}
+
+.top-contact{
+    display: flex;
+}
+.btn-img{
+    position: absolute;
+    display: flex;
+    width: 25px;
+    height: 25px;
+    margin: 61px 0 0 739px;
+}
+.btn-ig{
+    margin: 0 0 0 10px;
+}
+.line{
+    position: absolute;
+    width: 1px;
+    height: 25px;
+    background-color: #778A50;
+    margin: 61px 0 0 809px;
+}
+.box{
+    position: absolute;
+    height: 25px;
+    border: solid 1px #778A50;
+    border-radius: 3px;
+}
+.box-text{
+    height: 25px;
+    position: absolute;
+    font-family: "Arial Bold", Gadget, sans-serif;
+    font-size: 14px;
+    color : #778A50;
+    text-align: center;
+    line-height: 25px;
+}
+.box-login{
+    width: 60px;
+    margin: 61px 0 0 820px;
+}
+.login{
+    width: 60px;
+}
+.box-join{
+    width: 50px;
+    margin: 61px 0 0 890px;
+}
+.join{
+    width: 50px;
+}
+/* content */
+.content-area{
+    display: flex;
+}
+.nav{
+    position: absolute;
+    width: 940px;
+    height: 44px;
+    background-color: #778A50;
+    border-radius: 3px;
+    margin: 103px 0 0 160px;
+    padding-top: 13px;
+}
+.nav-list{
+    display: flex;
+    margin: 0;
+    padding: 0 0 0 30px;
+}
+.nav-list-item{
+    list-style: none;
+    margin-right: 60px;
+}
+.nav-list-item-link{
+    display: block;
+    color: #EDF2C5;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
+
+}
+.login:hover{
+    background-color: #778A50;
+    color: #EDF2C5;
+}
+.join:hover{
+    background-color: #778A50;
+    color: #EDF2C5;
+}
+.pumpkin{
+    position: absolute;
+    width: 940px;
+    height: 448px;
+    margin: 167px 160px 0 160px;
+}
+
+/* aside */
+.box-aside{
+    position: absolute;
+    width: 445px;
+    height: 45px;
+    background-color: #778A50;
+    border-radius: 3px;
+}
+.title-aside{
+    position: absolute;
+    font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
+    font-size: 16px;
+    color: #EDF2C5;
+}
+.box-veg{
+    margin: 645px 0 0 160px;
+}
+.title-veg{
+    margin: 14px 0 15px 30px;
+}
+
+.box-contact{
+    margin: 645px 0 0 655px;
+}
+.title-contact{
+    margin: 14px 0 15px 30px;
+}
+
+.img-veg{
+    position: absolute;
+    display: flex;
+    width: 140px;
+    height: 140px;
+    border: 3px;
+    margin: 705px 0 0 160px;
+}
+.carrot{
+    margin: 0 0 0 12px;
+}
+.corn{
+    margin: 0 0 0 12px;
+}
+
+.contact-bg{
+    position: absolute;
+    width: 445px;
+    height: 140px;
+    background-color: #F7FBDA;
+    margin: 705px 0 0 655px;
+    border: 3px;
+}
+.text-inbox{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #7D7D7D;
+}
+.text{
+    line-height: 1.33;
+    margin: 16px 0 16px 15px;
+}
+.contact-line{
+    position: absolute;
+    background-color: #7D7D7D;
+    width: 414px;
+    height: 1px;
+    margin: 0px 0 16px 15px;
+}
+.info{
+    margin: 30px 0 16px 15px;
+    line-height: 1.83;
+}
+.footer-box{
+    display: flex;
+    position: absolute;
+    width: 1260px;
+    height: 60px;
+    background-color: #778A50;
+    margin-top: 880px;
+}
+.footer-text{
+    position: absolute;
+    margin: 24px 0 0 479px;
+    color: #EDF2C5;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
